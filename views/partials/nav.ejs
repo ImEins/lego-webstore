@@ -1,0 +1,60 @@
+<!-- Ajouter la barre de menu -->
+	<nav class="navbar navbar-expand navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">
+			<img src="/images/logo_lego.jpg" width="40" height="40"/> WebStore
+		</a>
+		<ul class="navbar-nav mr-auto">
+		<li class="nav-item">
+			<a class="nav-link" href="/produits">Produits</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/panier">Panier</a>
+		</li>	
+		</ul>
+		<div>
+			<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#myModal">
+				<i class="fas fa-user-alt"></i> Compte</a>
+			</button>
+			  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header bouton">
+			
+         <div class="gauche"> 
+			<h4 class="modal-title">Compte</h4>
+         </div>
+         <div class="bouton">
+				 <button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+          
+        </div>
+        <div class="modal-body">
+			<form>
+				<div class="form-row">
+					<label for="identifiant"></label>
+					<input id="identifiant" type="text" class="form-control" placeholder="Identifiant">
+				</div>
+				<br/>
+				<div class="form-row">
+					<label for="mdpmodal"></label>
+					<input id="mdpmodal" type="password" class="form-control" placeholder="Mot de passe">
+				</div>
+				<br/>
+				<input type="submit" class="btn btn-primary btn-block" value="Connexion"/>
+			</form>
+          
+        </div>
+        <div class="modal-footer">
+          <div>
+			<a href="/inscription" class="btn btn-block btn-secondary" role="button">Inscription</a>
+		  </div>  
+        </div>
+      </div>
+      
+    </div>
+  </div>
+		</div>
+	</nav>

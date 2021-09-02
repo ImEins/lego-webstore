@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- TODO include head -->
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <%- include('partials/head.ejs')%>
+    <title>LEGO Webstore - <%= titre %></title>
+  </head>
+  <body>
+    <!-- TODO include nav -->
+    <%- include('partials/nav.ejs')%>
+    <div class="container p-3 p-md-5">
+    <%- include(page) %>
+   
+      <!-- TODO include page -->
+      <!-- TODO include footer -->
+    
+    <%- include('partials/footer.ejs')%>
+    </div>
+    <script src="/js/datelist.js"></script>
+	<script src="/js/checker.js"></script>
+	<script src="/js/feedback.js"></script>
+	<script src="/js/sign.js"></script>
+	<script src="/js/produit.js"></script>
+  </body>
+
+</html>

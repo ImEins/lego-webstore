@@ -1,0 +1,42 @@
+
+
+<div class="row">
+			<div class="col-md-8">
+				<div>
+					<img id="gdeImage" src=<%= prod.img0%> class="img-fluid" alt="Responsive image"/>
+				</div>
+				<div class="row">
+					<div class="col-3">
+						<img src=<%= prod.img0%> class="img-fluid miniature" alt="Responsive image"/>
+					</div>
+					<div class="col-3">
+						<img src=<%= prod.img1%> class="img-fluid miniature" alt="Responsive image"/>
+					</div>
+					<div class="col-3">
+						<img src=<%= prod.img2%> class="img-fluid miniature" alt="Responsive image"/>
+					</div>
+					<div class="col-3">
+						<img src=<%= prod.img3%> class="img-fluid miniature" alt="Responsive image"/>
+					</div>
+				</div>
+				<br/>
+			</div>
+			<div class="col-md-4">
+				<div>
+					<h2><span class="LEGO">LEGO</span> Architecture New York</h2>
+					<hr/>
+					<p class="prix"><%= prod.price%>€</p>
+					<div class="alert alert-success">En stock</div>
+					<hr/>
+					<div class="bouton">
+						<button id = "moins" class="btn btn-sm btn-outline-secondary">-</button>
+						<button id = "quantite" class="btn btn-sm" disabled></button>
+						<button id = "plus" class="btn btn-sm btn-outline-secondary">+</button>
+					</div>
+					<br/>
+					<div class="bouton">
+						<button class="btn btn-primary">Ajouter au panier<i class="fas fa-shopping-cart"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>

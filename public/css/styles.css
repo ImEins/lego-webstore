@@ -1,0 +1,64 @@
+/* Feuille de styles */
+
+.miniature {
+	border-bottom: 6px solid transparent;
+	}
+
+.miniature:hover {
+	border-bottom: 6px solid #ddd;
+	}
+
+.bordureBleue {
+	border-bottom: 6px solid #007bff;
+	}
+.bordureBleue:hover {
+	border-bottom: 6px solid #007bff;
+	}
+
+.prix {
+	font-size: 35px;
+	}
+	
+.auteur,.ville {
+	font-weight: bold;
+	}
+
+.date,.qte {
+	font-style: italic;
+	}
+
+.avatar {
+	margin-right: 1em;
+	}
+	
+.bouton {
+	text-align: right;
+	}
+
+.logo {
+	text-align: right;
+	}
+
+.prixbis {
+	font-size: 25px;
+	}
+
+#panier {
+	font-size:17px;
+	}
+
+#total {
+	font-size:23px;
+	}
+
+#forceTexte {
+	font-size: 10px;
+	}
+
+.cacherBarreTexte {
+	display: none;
+	}
+
+
+
+	
